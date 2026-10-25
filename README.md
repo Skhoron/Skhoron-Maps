@@ -1,39 +1,36 @@
 # Skhoron Maps
 
-Простой, гибкий вьюер карт с поиском и построением маршрутов —
-без собственной серверной инфраструктуры, полностью на клиенте.
+A simple, flexible map viewer with search and route planning — with no proprietary server infrastructure, running entirely on the client side.
 
-## Возможности
+Features
 
-- Просмотр карт от планеты до улицы (MapLibre GL + PMTiles)
-- Поиск городов, стран, адресов
-- Построение маршрутов с альтернативными вариантами
-- Профили: пешком / авто / вело
+- View maps from the entire planet down to street level (MapLibre GL + PMTiles)
+- Search for cities, countries, and addresses
+- Plan routes with alternative options
+- Travel profiles: walking / driving / cycling
 
-## Стек
+Tech Stack
 
-- **Карта**: MapLibre GL JS + PMTiles (Protomaps)
-- **Роутинг**: Valhalla (публичный FOSSGIS-инстанс)
-- **Поиск**: Photon (публичный Komoot-инстанс)
+- Maps: MapLibre GL JS + PMTiles (Protomaps)
+- Routing: Valhalla (public FOSSGIS instance)
+- Search: Photon (public Komoot instance)
 
-Подробности об источниках данных и их условиях использования — в
-[`docs/sources.md`](docs/sources.md).
+For details about data sources and their terms of use, see ""docs/sources.md"" (docs/sources.md).
 
-## Структура
+Structure
 
-```
 src/
-├── map/          # инициализация карты, стили
-├── search/       # геокодинг
-├── routing/       # построение маршрутов
-└── config/         # все внешние эндпоинты в одном месте
-```
+├── map/       # Map initialization and styles
+├── search/    # Geocoding
+├── routing/   # Route planning
+└── config/    # All external endpoints in one place
 
-## Лицензия
+License
 
-MPL 2.0 — см. [LICENSE](LICENSE).
+MPL 2.0 — see "LICENSE" (LICENSE).
 
-## Часть экосистемы Skhoron
+Part of the Skhoron Ecosystem
 
-Открытые приватность-ориентированные проекты под брендом Skhoron.
-GitHub: [Skhoron](https://github.com/Skhoron)
+Open-source, privacy-focused projects under the Skhoron brand.
+
+GitHub: "Skhoron" (https://github.com/Skhoron)
